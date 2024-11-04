@@ -1,0 +1,111 @@
+body
+{
+    height: 100vh;
+}
+
+.post{
+    margin-top: 1rem;
+    background-color: pink;
+}
+
+.username{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+h1{
+    color: brown;
+}
+
+h4{
+    margin-left: 0.5rem;
+}
+.post a{
+    text-decoration: node;
+}
+.post button{
+    margin-left: 0.5rem;
+    border-radius: 3rem;
+    margin-bottom: 0.5rem;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    background-color: burlywood;
+    border-radius: 3rem;
+}
+
+
+/* ----------------------------------------------new post------------------------------------------------------------ */
+
+.form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form{
+    height: 50%;
+    width: 50%;
+    background-color: pink;
+    border-radius: 3rem;
+   
+}
+
+form div{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.form div button{
+    margin-top: 2rem;
+}
+
+
+/* ----------------------------------------------Edit page------------------------------------------------------------ */
+
+
+.edit_page{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.edit{
+    height: 50%;
+    width: 50%;
+    background-color: pink;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.edit button{
+    margin-top: 1rem;
+}
+
+
+/* ----------------------------------------------didails page------------------------------------------------------------ */
+
+.ditails_page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ditails{
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+    border-radius: 3rem;
+    text-align: center;
+}
